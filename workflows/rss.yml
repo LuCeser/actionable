@@ -1,7 +1,9 @@
 name: Send a HTTP Request when new RSS item is detected
 on:
   rss:
-    url: https://jsomers.net/blog/feed
+    url: 
+      - https://jsomers.net/blog/feed
+      - https://unbug.github.io/feed.xml
 jobs:
   request:
     name: Request
