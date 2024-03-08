@@ -4,6 +4,7 @@ on:
     url: 
       - https://jsomers.net/blog/feed
       - https://unbug.github.io/feed.xml
+      - https://draveness.me/feed.xml
 jobs:
   request:
     name: Request
