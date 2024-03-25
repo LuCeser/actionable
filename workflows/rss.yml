@@ -6,7 +6,6 @@ on:
       - https://unbug.github.io/feed.xml
       - https://draveness.me/feed.xml
       - https://tech.meituan.com/feed
-      - https://insights.thoughtworks.cn/feed
       - https://martinfowler.com/feed.atom
       - https://web.dev/feed.xml
       - https://hypercritical.co/feeds/main
