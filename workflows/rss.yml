@@ -9,7 +9,7 @@ on:
       - https://insights.thoughtworks.cn/feed
       - https://martinfowler.com/feed.atom
       - https://web.dev/feed.xml
-      
+      - https://hypercritical.co/feeds/main
 jobs:
   request:
     name: Request
