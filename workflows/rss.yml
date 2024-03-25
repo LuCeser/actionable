@@ -9,6 +9,8 @@ on:
       - https://martinfowler.com/feed.atom
       - https://web.dev/feed.xml
       - https://hypercritical.co/feeds/main
+      - https://feeds.feedburner.com/marginalrevolution/feed
+      - https://www.wangyurui.top/index.php/feed/
 jobs:
   request:
     name: Request
