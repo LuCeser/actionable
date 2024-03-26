@@ -11,6 +11,7 @@ on:
       - https://hypercritical.co/feeds/main
       - https://feeds.feedburner.com/marginalrevolution/feed
       - https://wangyurui.com/feed.xml
+      - http://www.newyorker.com/services/rss/feeds/everything.xml
 jobs:
   request:
     name: Request
