@@ -12,6 +12,7 @@ on:
       - https://feeds.feedburner.com/marginalrevolution/feed
       - https://wangyurui.com/feed.xml
       - http://www.newyorker.com/services/rss/feeds/everything.xml
+      - https://feeds.bbci.co.uk/zhongwen/simp/rss.xml
 jobs:
   request:
     name: Request
