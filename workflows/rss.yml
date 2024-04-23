@@ -12,6 +12,7 @@ on:
       - https://feeds.feedburner.com/marginalrevolution/feed
       - https://wangyurui.com/feed.xml
       - https://feeds.feedburner.com/martinkl
+      - https://scitechdaily.com/feed/
 jobs:
   request:
     name: Request
