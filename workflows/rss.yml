@@ -14,7 +14,6 @@ on:
       - https://feeds.feedburner.com/martinkl
       - https://scitechdaily.com/feed/
       - https://spring.io/blog.atom
-      - https://api.joshlong.com/feed.xml
       - https://feeds.feedblitz.com/baeldung
 jobs:
   request:
