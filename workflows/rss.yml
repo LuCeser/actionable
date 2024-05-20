@@ -14,6 +14,9 @@ on:
       - https://feeds.feedburner.com/martinkl
       - https://spring.io/blog.atom
       - https://feeds.feedblitz.com/baeldung
+      - https://blog.t9t.io/atom.xml
+      - https://feeds.feedburner.com/ruanyifeng
+      - https://diygod.cc/feed
 jobs:
   request:
     name: Request
