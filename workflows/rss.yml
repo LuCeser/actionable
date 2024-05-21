@@ -19,6 +19,11 @@ on:
       - https://diygod.cc/feed
       - https://news.ycombinator.com/rss
       - https://hnrss.org/frontpage
+      - https://maxwelldulin.invades.space/resources-rss.xml
+      - https://portswigger.net/research/rss
+      - https://googleprojectzero.blogspot.com/feeds/posts/default
+      - https://kevinlynagh.com/feed.xml
+      
 jobs:
   request:
     name: Request
