@@ -1,8 +1,10 @@
 name: Actionsflow
 on:
   schedule:
-    - cron: "0 0 * * *"
-    - cron: "0 12 * * *"
+    # 在UTC时间的16点运行（Asia/Shanghai的0点）
+    - cron: "0 16 * * *"
+    # 在UTC时间的4点运行（Asia/Shanghai的12点）
+    - cron: "0 4 * * *"
   push:
     branches:
       - main
