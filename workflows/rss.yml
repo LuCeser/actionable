@@ -21,6 +21,7 @@ on:
       - https://portswigger.net/research/rss
       - https://googleprojectzero.blogspot.com/feeds/posts/default
       - https://kevinlynagh.com/feed.xml
+      - https://www.microsoft.com/en-us/research/feed/
       
 jobs:
   request:
