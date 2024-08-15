@@ -22,6 +22,7 @@ on:
       - https://googleprojectzero.blogspot.com/feeds/posts/default
       - https://kevinlynagh.com/feed.xml
       - https://www.microsoft.com/en-us/research/feed/
+      - https://www.kawabangga.com/feed
       
 jobs:
   request:
