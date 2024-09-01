@@ -23,6 +23,7 @@ on:
       - https://kevinlynagh.com/feed.xml
       - https://www.microsoft.com/en-us/research/feed/
       - https://www.kawabangga.com/feed
+      - https://stephango.com/feed.xml
       
 jobs:
   request:
