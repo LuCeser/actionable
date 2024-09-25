@@ -24,6 +24,7 @@ on:
       - https://www.microsoft.com/en-us/research/feed/
       - https://www.kawabangga.com/feed
       - https://stephango.com/feed.xml
+      - https://thesephist.com/index.xml
       
 jobs:
   request:
