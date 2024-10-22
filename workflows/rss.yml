@@ -25,6 +25,7 @@ on:
       - https://www.kawabangga.com/feed
       - https://stephango.com/feed.xml
       - https://thesephist.com/index.xml
+      - https://blog.brachiosoft.com/index.xml
       
 jobs:
   request:
