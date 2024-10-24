@@ -16,7 +16,6 @@ on:
       - https://feeds.feedblitz.com/baeldung
       - https://blog.t9t.io/atom.xml
       - https://feeds.feedburner.com/ruanyifeng
-      - https://diygod.cc/feed
       - https://news.ycombinator.com/rss
       - https://portswigger.net/research/rss
       - https://googleprojectzero.blogspot.com/feeds/posts/default
