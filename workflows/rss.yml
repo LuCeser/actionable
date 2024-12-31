@@ -3,6 +3,7 @@ on:
   rss:
     url: 
       - https://jsomers.net/blog/feed
+      - https://tomhazledine.com/feed.xml
       - https://unbug.github.io/feed.xml
       - https://draveness.me/feed.xml
       - https://tech.meituan.com/feed
