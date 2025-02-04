@@ -40,3 +40,8 @@ jobs:
         uses: actionsflow/setup-act-for-actionsflow@v1.2.0
       - name: Run act
         run: act --workflows ./dist/workflows --secret-file ./dist/.secrets --eventpath ./dist/event.json --env-file ./dist/.env -P ubuntu-latest=ghcr.io/catthehacker/ubuntu:act-latest
+      - name: Debug HTTP Response
+        run: |
+          echo "Status Code: ${{ steps.Run Actionsflow.outputs.status-code }}"
+          echo "Status Message: ${{ steps.Run Actionsflow.outputs.status-message }}"
+        
