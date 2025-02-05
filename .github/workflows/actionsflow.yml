@@ -30,6 +30,15 @@ jobs:
     concurrency: actionsflow
     steps:
       - uses: actions/checkout@v3
+      - name: Cache Actionsflow files
+        uses: actions/cache@v3
+        with:
+          path: |
+            dist
+            .cache
+          key: ${{ runner.os }}-actionsflow-${{ hashFiles('**/workflows/*.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-actionsflow-
       - name: Run Actionsflow
         uses: actionsflow/actionsflow-action@v1.3.0
         env:
