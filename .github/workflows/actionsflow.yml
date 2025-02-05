@@ -30,12 +30,10 @@ jobs:
     concurrency: actionsflow
     steps:
       - uses: actions/checkout@v3
-      - name: Clean workflow
-        run: rm -rf dist .cache .env
       - name: Run Actionsflow
         uses: actionsflow/actionsflow-action@v1.3.0
         env:
-          DEFAULT_LOG_LEVEL: "debug"
+          ACTIONS_CACHE_ENABLED: "false"
         with:
           args: "build --include ${{ github.event.inputs.include || ''}} -f ${{github.event.inputs.force=='true' && 'true' || 'false'}} --verbose ${{github.event.inputs.verbose=='true' && 'true' || 'false'}}"
           json-secrets: ${{ toJSON(secrets) }}
